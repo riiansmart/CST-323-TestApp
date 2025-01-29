@@ -5,7 +5,7 @@ import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 
-@Table("orders")
+@Table("ORDERS")
 public class OrderEntity {
     @Id
     Long id;
